@@ -1,0 +1,1 @@
+console.log("This extension is running on a specified site.");
