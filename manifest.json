@@ -3,9 +3,8 @@
     "name": "Youtube Shorts Filter",
     "version": "2.0",
     "description": "This extension filters shorts.",
-    "permissions": [
-      "https://www.youtube.com/*"
-    ],
+    "permissions": ["storage", "tabs"],
+    "host_permissions": ["https://*.youtube.com/*"],
     "content_scripts": [
       {
         "matches": [
